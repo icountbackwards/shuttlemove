@@ -16,5 +16,7 @@ cmake --build . --config Release
 ## Key Bindings:
 
 WASD to move
+
 SPACEBAR to start game
+
 mouse for camera movements
