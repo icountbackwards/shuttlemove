@@ -28,14 +28,14 @@ add_executable(shuttlemove
 )
 
 # Include GLM headers
-target_include_directories(BadmintonSim PRIVATE
+target_include_directories(shuttlemove PRIVATE
     ${CMAKE_SOURCE_DIR}
     external/glm
     external/stb_image
     external/tinyobjloader
 )
 
-target_link_libraries(BadmintonSim PRIVATE
+target_link_libraries(shuttlemove PRIVATE
     glad
     glfw
 )
