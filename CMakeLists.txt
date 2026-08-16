@@ -23,7 +23,7 @@ target_include_directories(glad PUBLIC
 )
 
 # Executable
-add_executable(BadmintonSim
+add_executable(shuttlemove
     src/main.cpp src/renderer.cpp src/mesh.cpp src/gamestate.cpp
 )
 
